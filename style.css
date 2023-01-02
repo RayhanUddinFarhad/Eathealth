@@ -1,0 +1,271 @@
+.first-area {
+
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    text-align: center;
+    
+}
+
+.text-area {
+
+
+    width: 50%;
+}
+
+.image-area{
+
+
+    width: 50%;
+}
+
+button {
+
+
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    background-color: coral;
+    color: aliceblue;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+
+    font-size: 50px;
+}
+
+#skip {
+
+    color: coral;
+}
+
+.sec-area {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/shapes/7.png);
+
+
+}
+
+
+p {
+
+
+    color: gray;
+}
+.My-Recipe {
+    margin-top: 100px;
+
+
+    text-align: center;
+    
+
+}
+
+.categorie {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+   
+    
+
+
+
+
+    
+
+
+}
+
+.cat {
+
+
+    padding: 5px 2px 40px ;
+    background-color: white;
+    margin: 40px;
+    box-shadow: 5px 5px 40px gray;
+    border-color: gainsboro ;
+    border-radius: 25px;
+    box-sizing: border-box;
+    width: 30%;
+
+    text-align: left;
+    
+
+}
+
+.cat img {
+
+
+    width: 100%;
+}
+.cat h1, p{
+
+
+    margin: 20px;
+}
+.sub-area {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    padding: 10px 10px;
+    border-color: ghostwhite;
+    box-shadow: 5px 2px 20px grey;
+    text-align: center;
+
+
+}
+
+
+
+.last-area {
+
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-area span {
+
+    color: coral;
+}
+
+.last-area h2{
+
+    color: grey;
+}
+
+footer {
+    position: relative;
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  
+
+@media screen and (max-width : 700px) {
+
+    .categorie {
+
+        display: flex;
+        flex-direction: column;
+        padding: auto;
+    }
+
+    .cat {
+
+        padding: 5px ;
+    background-color: white;
+    margin: 40px;
+    box-shadow: 5px 5px 40px gray;
+    border-color: gainsboro ;
+    border-radius: 25px;
+    box-sizing: border-box;
+    width: 80%;
+
+    text-align: left;
+
+
+    }
+
+
+    .first-area {
+
+
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 30px;
+        text-align: center;
+        font-size: 20px;
+        
+    }
+
+   
+    
+    .text-area {
+    
+    
+        width: 70%;
+        font-size: 20px;
+        margin: 20px;
+    }
+    
+    
+    .sec-area {
+        width: 100%;
+        display: flex;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    
+    
+    }
+
+
+    .sub-area {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+        padding: 10px 10px;
+        border-color: ghostwhite;
+        box-shadow: 5px 2px 20px grey;
+        text-align: center;
+    
+    
+    }
+.last-area {
+
+    padding-top: 50px;
+}
+
+.image-area {
+
+    width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+    
+        
+}
+
+
+
+
+
+
+
